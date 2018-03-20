@@ -8,7 +8,7 @@ plan.target('staging', [
   {
     host: 'shell.gridhost.co.uk',
     username: 'kortbeek',
-    password: 'm91ig25ne6btksq1',
+    
     agent: process.env.SSH_AUTH_SOCK
   }
 ], {
