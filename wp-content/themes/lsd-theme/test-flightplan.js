@@ -8,7 +8,6 @@ plan.target('staging', [
   {
     host: 'shell.gridhost.co.uk',
     username: 'kortbeek',
-    password: 'm91ig25ne6btksq1',
     privateKey: '/User/jakekortbeek/.ssh/id_rsa',
     agent: process.env.SSH_AUTH_SOCK
   }
