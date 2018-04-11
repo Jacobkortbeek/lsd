@@ -3,6 +3,8 @@
 //global
 body{
   background: linear-gradient($green, $bluegreen, $lightblue, $blue);
+  background-repeat: no-repeat;
+  height: 400vh;
 }
 
 h1 {
