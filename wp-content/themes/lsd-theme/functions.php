@@ -1,10 +1,6 @@
 <?php
 
-if( function_exists('acf_add_options_page') ) {
-
-	acf_add_options_page();
-
-}
+wpt_create_widget( 'Page Header', 'page', 'Header' );
 
 function wpt_theme_styles() {
   wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
