@@ -7,3 +7,10 @@ $green : #99ff7d;
 $bluegreen : #7dffd6;
 $lightblue : #7deeff;
 $blue : #7d9cff;
+
+
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+}

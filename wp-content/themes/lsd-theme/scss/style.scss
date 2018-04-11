@@ -9,5 +9,5 @@ body{
 
 header {
   background-color: white;
-  
+  @include border-radius(10px);
 }
