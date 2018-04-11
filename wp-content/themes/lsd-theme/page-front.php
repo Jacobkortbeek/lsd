@@ -4,6 +4,8 @@
   */
 ?>
 
+<?php get_header(); ?>
+
 <div class="row">
   <div class="col-12">
     <?php $logo = get_field( 'logo' ); ?>
@@ -18,3 +20,5 @@
     <?php the_field( 'text_box' ); ?>
   </div>
 </div>
+
+<?php get_footer(); ?>
