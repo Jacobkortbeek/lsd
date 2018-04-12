@@ -10,7 +10,9 @@
 }
 
 .about-row{
-  @mixin flex(auto, row, wrap, center, center);
+  display: flex;
+  justify-content: center;
+  align-content: center;
   .about-container{
     background-color: white;
     @include border-radius(10px);
