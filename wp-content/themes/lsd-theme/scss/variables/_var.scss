@@ -16,7 +16,8 @@ $blue : #7d9cff;
 }
 
 @mixin size($width, $height) {
-  width: percentage($width / $height);
+  width: em($width);
+  height: em($height);
 }
 
 @mixin flex($flex, $direction, $wrap, $justify, $align) {
