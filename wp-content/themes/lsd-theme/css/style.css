@@ -83,10 +83,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
       padding: 30px; }
 
 .gal-row {
-  padding-bottom: 0; }
+  padding-bottom: 0 !important; }
 
 .gal-btn-row {
-  padding-top: 0; }
+  padding-top: 0 !important; }
   .gal-btn-row .gal-btn-container {
     width: 15%; }
     .gal-btn-row .gal-btn-container .galery-button {
