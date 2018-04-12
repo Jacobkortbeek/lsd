@@ -20,6 +20,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
     height: 31.25em;
     margin: auto; }
 
+.about-row .about-container {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px; }
+
 body {
   background: linear-gradient(#99ff7d, #7dffd6, #7deeff, #7d9cff);
   background-repeat: no-repeat;

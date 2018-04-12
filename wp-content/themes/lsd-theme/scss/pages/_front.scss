@@ -8,3 +8,10 @@
     margin: auto;
   }
 }
+
+.about-row{
+  .about-container{
+    background-color: white;
+    @include border-radius(10px);
+  }
+}

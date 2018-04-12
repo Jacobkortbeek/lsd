@@ -7,7 +7,7 @@
 <?php get_header(); ?>
 
 <div class="row logo-row">
-  <div class="col-md-12 logo-container">
+  <div class="span12 logo-container">
     <?php $logo = get_field( 'logo' ); ?>
     <?php if ( $logo ) { ?>
 	     <img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" class="logo" />
@@ -15,8 +15,8 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="col-md-12">
+<div class="row about-row">
+  <div class="span12 about-container">
     <?php the_field( 'text_box' ); ?>
   </div>
 </div>
