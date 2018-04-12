@@ -12,6 +12,8 @@
 .about-row{
   display: flex;
   flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   .about-container{

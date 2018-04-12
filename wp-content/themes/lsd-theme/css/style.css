@@ -23,6 +23,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .about-row {
   display: flex;
   flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: center; }
   .about-row .about-container {
