@@ -20,5 +20,8 @@
   .about-container{
     background-color: white;
     @include border-radius(10px);
+    >p{
+      padding: 30px;
+    }
   }
 }
