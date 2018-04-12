@@ -82,6 +82,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
     .about-row .about-container > p {
       padding: 30px; }
 
+.gal-btn-row .blob-svg {
+  z-index: -10; }
+
 .gal-btn-row .gal-btn-container {
   width: 25%; }
   .gal-btn-row .gal-btn-container .galery-button {

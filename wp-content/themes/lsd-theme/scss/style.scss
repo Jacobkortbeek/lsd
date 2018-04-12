@@ -29,12 +29,14 @@ body{
   padding: 200px 0 200px 0;
 }
 
-header .row{
-  padding: 0;
-  .header-container{
-    background-color: white;
-    @include border-radius(5px);
-    padding: 10px;
-    margin: 20px;
+header{
+  .row{
+    padding: 0;
+    .header-container{
+      background-color: white;
+      @include border-radius(5px);
+      padding: 10px;
+      margin: 20px;
+    }
   }
 }

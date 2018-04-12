@@ -27,6 +27,9 @@
 }
 
 .gal-btn-row{
+  .blob-svg{
+    z-index: -10;
+  }
   .gal-btn-container{
     width: 25%;
     .galery-button{
