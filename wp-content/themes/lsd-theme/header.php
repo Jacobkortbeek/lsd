@@ -8,7 +8,7 @@
   </head>
   <header>
     <div class="row">
-      <div class="span12">
+      <div class="span12 header-container">
         <h2>Jacob Kortbeek</h2>
       </div>
     </div>

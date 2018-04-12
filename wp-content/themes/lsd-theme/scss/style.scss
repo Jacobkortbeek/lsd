@@ -29,7 +29,7 @@ body{
   padding: 200px 0 200px 0;
 }
 
-header .row{
+header .row .header-container{
   background-color: white;
   @include border-radius(5px);
   padding: 10px;
