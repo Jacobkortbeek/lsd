@@ -6,11 +6,11 @@
 
 <?php get_header(); ?>
 
-<div class="row">
-  <div class="col-md-12">
+<div class="row logo-row">
+  <div class="col-md-12 logo-container">
     <?php $logo = get_field( 'logo' ); ?>
     <?php if ( $logo ) { ?>
-	     <img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+	     <img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" class="logo" />
     <?php } ?>
   </div>
 </div>

@@ -1,5 +1,21 @@
 <?php
 
+add_theme_support( 'post-thumbnails' );
+
+function wpdocs_theme_setup() {
+    add_image_size( 'homepage-logo', 220, 180, false );
+}
+add_action( 'after_setup_theme', 'wpdocs_theme_setup' );
+
+add_filter( 'image_size_names_choose', 'custom_image_sizes_choose' );
+function custom_image_sizes_choose( $sizes ) {
+    $custom_sizes = array(
+        'featured-image' => 'Featured Image'
+    );
+    return array_merge( $sizes, $custom_sizes );
+}
+
+
 function wpt_create_widget( $name, $id, $description ) {
   register_sidebar(array(
     'name' => __( $name ),
@@ -21,6 +37,7 @@ function wpt_theme_styles() {
   wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
 }
 add_action( 'wp_enqueue_scripts', 'wpt_theme_styles' );
+
 function wpt_theme_js() {
   wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), ' ', true);
 }

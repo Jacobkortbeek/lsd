@@ -14,3 +14,7 @@ $blue : #7d9cff;
 	-webkit-border-radius: $radius;
 	-moz-border-radius: $radius;
 }
+
+@mixin size($width, $height) {
+  width: percentage($width / $height);
+}
