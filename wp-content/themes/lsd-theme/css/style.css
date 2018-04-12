@@ -82,9 +82,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
     .about-row .about-container > p {
       padding: 30px; }
 
-.gal-btn-row .blob-svg {
-  z-index: -10; }
-
 .gal-btn-row .gal-btn-container {
   width: 25%; }
   .gal-btn-row .gal-btn-container .galery-button {
@@ -126,12 +123,14 @@ body {
   align-content: center;
   padding: 200px 0 200px 0; }
 
-header .row {
-  padding: 0; }
-  header .row .header-container {
-    background-color: white;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    padding: 10px;
-    margin: 20px; }
+header {
+  z-index: 10; }
+  header .row {
+    padding: 0; }
+    header .row .header-container {
+      background-color: white;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      padding: 10px;
+      margin: 20px; }
