@@ -14,8 +14,8 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 .logo-container {
-  width: em(300px);
-  height: em(500px);
+  width: 18.75pxem;
+  height: 31.25pxem;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;

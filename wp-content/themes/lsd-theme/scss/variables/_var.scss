@@ -15,6 +15,12 @@ $blue : #7d9cff;
 	-moz-border-radius: $radius;
 }
 
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+
 @mixin size($width, $height) {
   width: em($width);
   height: em($height);
