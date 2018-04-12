@@ -2,5 +2,5 @@
 
 .logo-container{
   @include size(300, 500);
-  @include flex(1, none, wrap, center, space-around);
+  margin: auto;
 }
