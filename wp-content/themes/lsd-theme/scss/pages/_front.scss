@@ -2,10 +2,10 @@
 
 
 .logo-row{
+  @include flex(1, row, wrap, center, center);
   padding: 150px 0 160px 0;
   .logo-container{
     @include size(300, 500);
-    margin: auto;
   }
 }
 
