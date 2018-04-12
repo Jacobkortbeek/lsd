@@ -10,12 +10,13 @@
 }
 
 .about-row{
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  @include flex(1, row, wrap, center, center);
+  // display: flex;
+  // flex: 1;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  // justify-content: center;
+  // align-content: center;
   .about-container{
     background-color: white;
     @include border-radius(10px);
