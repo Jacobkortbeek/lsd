@@ -40,3 +40,11 @@ header{
     }
   }
 }
+
+.text-area{
+  background-color: white;
+  @include border-radius(10px);
+  p, h2{
+    padding: 30px;
+  }
+}

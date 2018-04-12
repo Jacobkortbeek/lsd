@@ -74,13 +74,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
   -moz-align-content: center;
   -ms-align-content: center;
   align-content: center; }
-  .about-row .about-container {
-    background-color: white;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px; }
-    .about-row .about-container p, .about-row .about-container h2 {
-      padding: 30px; }
 
 .gal-row {
   padding-bottom: 0 !important; }
@@ -140,3 +133,11 @@ header .row {
     -moz-border-radius: 5px;
     padding: 10px;
     margin: 20px; }
+
+.text-area {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px; }
+  .text-area p, .text-area h2 {
+    padding: 30px; }

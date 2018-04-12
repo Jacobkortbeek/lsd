@@ -16,7 +16,7 @@
 </div>
 
 <div class="row about-row">
-  <div class="span12 about-container">
+  <div class="span12 about-container text-area">
     <h2><?php the_field( 'text_box_title' ); ?></h2>
     <?php the_field( 'text_box' ); ?>
   </div>
@@ -56,7 +56,12 @@
   </div>
 </div>
 
-
+<div class="row goals-row">
+  <div class="span12 goals-container text-area">
+    <h2><?php the_field( 'goals_header' ); ?></h2>
+    <?php the_field( 'goals_text' ); ?>
+  </div>
+</div>
 
 
 <div class="row">
