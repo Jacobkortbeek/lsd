@@ -82,6 +82,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
     .about-row .about-container > p {
       padding: 30px; }
 
+.gal-btn-row .gal-btn-container .galery-button {
+  background: linear-gradient(to right, #99ff7d, #7dffd6, #7deeff, #7d9cff); }
+
 body {
   background: linear-gradient(#99ff7d, #7dffd6, #7deeff, #7d9cff);
   background-repeat: no-repeat;

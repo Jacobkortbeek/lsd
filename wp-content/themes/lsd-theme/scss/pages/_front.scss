@@ -25,3 +25,11 @@
     }
   }
 }
+
+.gal-btn-row{
+  .gal-btn-container{
+    .galery-button{
+      background: linear-gradient(to right, $green, $bluegreen, $lightblue, $blue);
+    }
+  }
+}

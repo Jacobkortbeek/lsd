@@ -44,11 +44,19 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="col-md-12">
-    <?php the_field( 'button' ); ?>
+
+
+<div class="row gal-btn-row">
+  <div class="span12 gal-btn-container">
+    <div class="galery-button">
+      <a href="<?php the_field( 'button' ); ?>"><?php the_field( 'button_text' ); ?></a>
+    </div>
+
   </div>
 </div>
+
+
+
 
 <div class="row">
   <div class="col-md-6">
