@@ -10,6 +10,7 @@
 }
 
 .about-row{
+  @mixin flex(auto, row, wrap, center, center);
   .about-container{
     background-color: white;
     @include border-radius(10px);
