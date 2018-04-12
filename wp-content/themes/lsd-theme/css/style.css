@@ -82,12 +82,20 @@ Use it to make something cool, have fun, and share what you've learned with othe
     .about-row .about-container p, .about-row .about-container h2 {
       padding: 30px; }
 
-.gal-btn-row .gal-btn-container {
-  width: 25%; }
-  .gal-btn-row .gal-btn-container .galery-button {
-    background: linear-gradient(to right, #99ff7d, #7dffd6, #7deeff, #7d9cff);
-    text-align: center;
-    padding: 50px 0 50px 0; }
+.gal-row {
+  padding-bottom: 0; }
+
+.gal-btn-row {
+  padding-top: 0; }
+  .gal-btn-row .gal-btn-container {
+    width: 15%; }
+    .gal-btn-row .gal-btn-container .galery-button {
+      background: linear-gradient(to right, #99ff7d, #7dffd6, #7deeff, #7d9cff);
+      text-align: center;
+      padding: 50px 0 50px 0; }
+      .gal-btn-row .gal-btn-container .galery-button p {
+        font-size: 3em;
+        font-weight: bold; }
 
 body {
   background: linear-gradient(#99ff7d, #7dffd6, #7deeff, #7d9cff);

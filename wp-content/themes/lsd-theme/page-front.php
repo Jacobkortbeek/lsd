@@ -24,7 +24,7 @@
 
 
 
-<div class="row">
+<div class="row gal-row">
   <div class="span4">
     <?php $image_one = get_field( 'image_one' ); ?>
   <?php if ( $image_one ) { ?>

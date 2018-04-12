@@ -26,13 +26,22 @@
   }
 }
 
+.gal-row{
+  padding-bottom: 0;
+}
+
 .gal-btn-row{
+  padding-top: 0;
   .gal-btn-container{
-    width: 25%;
+    width: 15%;
     .galery-button{
       background: linear-gradient(to right, $green, $bluegreen, $lightblue, $blue);
       text-align: center;
       padding: 50px 0 50px 0;
+      p{
+        font-size: 3em;
+        font-weight: bold;
+      }
     }
   }
 }
