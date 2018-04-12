@@ -25,6 +25,10 @@ body{
   height: 800vh;
 }
 
+.row{
+  @include flex(1, row, wrap, center, center);
+}
+
 header .row{
   background-color: white;
   @include border-radius(5px);
