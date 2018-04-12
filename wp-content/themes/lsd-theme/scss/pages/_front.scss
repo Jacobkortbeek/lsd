@@ -1,0 +1,5 @@
+@import "variables/var.scss";
+
+.logo-container{
+  @include size(300px, 500px)  
+}
