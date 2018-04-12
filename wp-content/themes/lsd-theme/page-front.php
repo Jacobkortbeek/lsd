@@ -21,12 +21,7 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="col-12">
-    <?php $blog_post_loop = get_field( 'blog_post_loop' ); ?>
-    <?php var_dump( $blog_post_loop ); ?>
-  </div>
-</div>
+
 
 <div class="row">
   <div class="col-md-4">
