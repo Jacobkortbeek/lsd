@@ -27,6 +27,7 @@ body{
 
 .row{
   @include flex(1, row, wrap, center, center);
+  padding: 200px 0 200px 0;
 }
 
 header .row{
