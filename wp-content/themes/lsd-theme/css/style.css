@@ -85,7 +85,7 @@ body {
   background-repeat: no-repeat;
   height: 800vh; }
 
-header {
+header .row {
   background-color: white;
   border-radius: 5px;
   -webkit-border-radius: 5px;

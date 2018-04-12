@@ -7,7 +7,11 @@
     <?php wp_head(); ?>
   </head>
   <header>
-    <h2>Jacob Kortbeek</h2>
+    <div class="row">
+      <div class="span12">
+        <h2>Jacob Kortbeek</h2>
+      </div>
+    </div>
   </header>
 
   <body>
