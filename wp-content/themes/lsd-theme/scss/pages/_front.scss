@@ -28,9 +28,10 @@
 
 .gal-btn-row{
   .gal-btn-container{
+    width: 25%;
     .galery-button{
       background: linear-gradient(to right, $green, $bluegreen, $lightblue, $blue);
-      width: 25%;
+      text-align: center;
     }
   }
 }
