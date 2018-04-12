@@ -25,13 +25,22 @@
 
 <div class="row">
   <div class="span4">
-  1
+    <?php $image_one = get_field( 'image_one' ); ?>
+  <?php if ( $image_one ) { ?>
+  	<img src="<?php echo $image_one['url']; ?>" alt="<?php echo $image_one['alt']; ?>" />
+  <?php } ?>
   </div>
   <div class="span4">
-    2
+    <?php $image_two = get_field( 'image_two' ); ?>
+<?php if ( $image_two ) { ?>
+	<img src="<?php echo $image_two['url']; ?>" alt="<?php echo $image_two['alt']; ?>" />
+<?php } ?>
   </div>
   <div class="span4">
-    3
+    <?php $image_three = get_field( 'image_three' ); ?>
+<?php if ( $image_three ) { ?>
+	<img src="<?php echo $image_three['url']; ?>" alt="<?php echo $image_three['alt']; ?>" />
+<?php } ?>
   </div>
 </div>
 
