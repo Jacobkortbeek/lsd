@@ -13,36 +13,12 @@ Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-rea
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-.logo-container {
-  width: 18.75em;
-  height: 31.25em;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-flex: 0;
-  -moz-box-flex: 0;
-  -webkit-flex: 0;
-  -ms-flex: 0;
-  flex: 0;
-  -webkit-flex-direction: none;
-  -moz-flex-direction: none;
-  -ms-flex-direction: none;
-  flex-direction: none;
-  -webkit-flex-wrap: none;
-  -moz-flex-wrap: none;
-  -ms-flex-wrap: none;
-  flex-wrap: none;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
-  -ms-flex-pack: center;
-  -webkit-align-content: none;
-  -moz-align-content: none;
-  -ms-align-content: none;
-  align-content: none; }
+.logo-row {
+  padding: 20px, 0, 20px, 0; }
+  .logo-row .logo-container {
+    width: 18.75em;
+    height: 31.25em;
+    margin: auto; }
 
 body {
   background: linear-gradient(#99ff7d, #7dffd6, #7deeff, #7d9cff);

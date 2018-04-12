@@ -1,6 +1,10 @@
 @import "variables/var.scss";
 
-.logo-container{
-  @include size(300, 500);
-  @include flex(0, none, none, center, none);
+
+.logo-row{
+  padding: 20px, 0, 20px, 0;
+  .logo-container{
+    @include size(300, 500);
+    margin: auto;
+  }
 }
