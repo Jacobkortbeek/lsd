@@ -123,14 +123,13 @@ body {
   align-content: center;
   padding: 200px 0 200px 0; }
 
-header {
-  z-index: 10; }
-  header .row {
-    padding: 0; }
-    header .row .header-container {
-      background-color: white;
-      border-radius: 5px;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      padding: 10px;
-      margin: 20px; }
+header .row {
+  z-index: 10;
+  padding: 0; }
+  header .row .header-container {
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 10px;
+    margin: 20px; }
