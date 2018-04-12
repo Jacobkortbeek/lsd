@@ -18,7 +18,7 @@
 <div class="row about-row">
   <div class="span12 about-container">
     <h2><?php the_field( 'text_box_title' ); ?></h2>
-    <p><?php the_field( 'text_box' ); ?></p>
+    <?php the_field( 'text_box' ); ?>
   </div>
 </div>
 
