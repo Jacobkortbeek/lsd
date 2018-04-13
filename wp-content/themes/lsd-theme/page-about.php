@@ -17,15 +17,14 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="span12">
-    <p>Hello World</p>
-    <?php if ( get_field( 'about_title' ) ): ?>
-      <h2> <?php the_field( 'about_title' ); ?> </h2>
-    <?php else: ?>
-      <p><?php _e( 'this is an error message!!' ); ?></p>
-    <?php endif; ?>
+<?php $fields = get_field_objects( 'about_title', 'about_content' ); ?>
+
+<?php if ( $fields ) ): ?>
+  <div class="row about-text-row">
+    <div class="span12 about-text-container">
+      <h2><?php the_field( 'about_title' ); ?></h2>
+      <p><?php the_field( 'about_content' ); ?></p>
+    </div>
   </div>
-</div>
 
 <?php get_footer(); ?>
