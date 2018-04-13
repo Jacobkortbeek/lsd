@@ -20,7 +20,9 @@
   <div class="span12">
     <?php if ( the_field( 'about_title' ) != 0 ): ?>
       <?php the_field( 'about_title' ); ?>
-    <?php endif ?> 
+    <?php else: ?>
+      <p><?php _e( 'this is an error message!!' ); ?>
+    <?php endif ?>
   </div>
 </div>
 
