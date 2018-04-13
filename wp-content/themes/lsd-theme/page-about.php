@@ -18,7 +18,7 @@
 
 <div class="row">
   <div class="span12">
-    <?php if ( the_field( 'about_title' ) : ?>
+    <?php if ( the_field( 'about_title' ) ) : ?>
       <?php the_field( 'about_title' ); ?>
     <?php else: ?>
       <p><?php _e( 'this is an error message!!' ); ?>
