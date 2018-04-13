@@ -17,7 +17,7 @@
   </div>
 </div>
 
-<?php $fields = get_field_objects( 'about_title', 'about_content' ); ?>
+<?php $fields = get_fields( ['about_title', 'about_content'] ); ?>
 
 <?php if ( $fields ): ?>
   <div class="row about-text-row">
