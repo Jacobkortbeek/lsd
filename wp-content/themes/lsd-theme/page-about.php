@@ -25,7 +25,7 @@
 <div class="row">
   <div class="span12">
     <p>Hello World</p>
-    <?php if ( $about_title ) ): ?>
+    <?php if ( $about_title ): ?>
       <h2> <?php $about_title ?> </h2>
     <?php else: ?>
       <p><?php _e( 'this is an error message!!' ); ?></p>
