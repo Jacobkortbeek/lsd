@@ -6,11 +6,6 @@
 
 <?php get_header(); ?>
 
-<?php
-
-  $about_title = the_field( 'about_title' );
-
-?>
 
 <div class="row">
   <div class="span12">
@@ -25,8 +20,8 @@
 <div class="row">
   <div class="span12">
     <p>Hello World</p>
-    <?php if ( $about_title ): ?>
-      <h2> <?php $about_title ?> </h2>
+    <?php if ( get_field( 'about_title' ) ): ?>
+      <h2> <?php the_field( 'about_title' ); ?> </h2>
     <?php else: ?>
       <p><?php _e( 'this is an error message!!' ); ?></p>
     <?php endif; ?>
