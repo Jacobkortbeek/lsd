@@ -8,7 +8,7 @@
 
 <?php
 
-  $about_title = get_field( 'about_title' );
+  $about_title = the_field( 'about_title' );
 
 ?>
 
