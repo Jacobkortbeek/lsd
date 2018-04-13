@@ -17,15 +17,18 @@
   </div>
 </div>
 
-<?php $fields = get_fields( ['about_title', 'about_content'] ); ?>
+<?php $fields = get_fields( [
+  $about => 'about_title',
+  $about_cont => 'about_content'
+] ); ?>
 
 <?php if ( $fields ): ?>
   <div class="row about-text-row">
     <div class="span12 about-text-container">
-      <?php if ( get_field( 'about_title' ) ) : ?>
-        <h2><?php the_field( 'about_title' ); ?></h2>
+      <?php if ( $about ) : ?>
+        <h2><?php $about ?></h2>
       <?php endif; ?>
-      <p><?php the_field( 'about_content' ); ?></p>
+      <p><?php $about_cont ?></p>
     </div>
   </div>
 <?php endif; ?>
