@@ -19,7 +19,7 @@
 
 <?php $fields = get_field_objects( 'about_title', 'about_content' ); ?>
 
-<?php if ( $fields ) ): ?>
+<?php if ( $fields ): ?>
   <div class="row about-text-row">
     <div class="span12 about-text-container">
       <h2><?php the_field( 'about_title' ); ?></h2>
