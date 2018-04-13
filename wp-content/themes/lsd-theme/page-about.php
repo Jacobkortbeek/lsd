@@ -22,7 +22,9 @@
 <?php if ( $fields ): ?>
   <div class="row about-text-row">
     <div class="span12 about-text-container">
-      <h2><?php the_field( 'about_title' ); ?></h2>
+      <?php if ( get_field( 'about_title' ) ) : ?>
+        <h2><?php the_field( 'about_title' ); ?></h2>
+      <?php endif; ?>
       <p><?php the_field( 'about_content' ); ?></p>
     </div>
   </div>
