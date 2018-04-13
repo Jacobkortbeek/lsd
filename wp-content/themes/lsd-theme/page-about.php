@@ -18,6 +18,7 @@
 
 <div class="row">
   <div class="span12">
+    <p>Hello World</p>
     <?php if ( the_field( 'about_title' ) ): ?>
       <h2><?php the_field( 'about_title' ); ?></h2>
     <?php else: ?>
