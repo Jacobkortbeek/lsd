@@ -26,5 +26,6 @@
       <p><?php the_field( 'about_content' ); ?></p>
     </div>
   </div>
+<?php endif; ?>
 
 <?php get_footer(); ?>
