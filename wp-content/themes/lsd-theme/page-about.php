@@ -20,8 +20,8 @@
   <div class="span12">
     <p>Hello World</p>
     <?php if ( the_field( 'about_title' ) ): ?>
-      <h2><?php the_field( 'about_title' ); ?></h2>
-    <?php else: ?>
+      <h2> <?php the_field( 'about_title' ); ?> </h2>
+    <?php elseif: ?>
       <p><?php _e( 'this is an error message!!' ); ?></p>
     <?php endif; ?>
   </div>
