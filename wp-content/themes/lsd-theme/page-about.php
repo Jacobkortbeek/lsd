@@ -21,7 +21,7 @@
     <p>Hello World</p>
     <?php if ( the_field( 'about_title' ) ): ?>
       <h2> <?php the_field( 'about_title' ); ?> </h2>
-    <?php elseif: ?>
+    <?php else: ?>
       <p><?php _e( 'this is an error message!!' ); ?></p>
     <?php endif; ?>
   </div>
