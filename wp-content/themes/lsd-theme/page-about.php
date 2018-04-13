@@ -16,4 +16,12 @@
   </div>
 </div>
 
+<div class="row">
+  <div class="span12">
+    <?php if ( the_field( 'about_title' ) != 0 ): ?>
+      <?php the_field( 'about_title' ); ?>
+    <?php endif ?> 
+  </div>
+</div>
+
 <?php get_footer(); ?>
